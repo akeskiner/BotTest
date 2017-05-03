@@ -244,8 +244,8 @@
 				TargetAttributes = {
 					FA44F16E1EBA6EE2003FFC27 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = BDLKX9FAG9;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = VW85RQ7VZT;
+						ProvisioningStyle = Manual;
 					};
 					FA44F1821EBA6EE2003FFC27 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -608,11 +608,14 @@
 			baseConfigurationReference = 01066E4E0A8F8107F7A43815 /* Pods-BotTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BDLKX9FAG9;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = VW85RQ7VZT;
 				INFOPLIST_FILE = BotTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = akeskiner.BotTest;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eckle.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4ed48f8c-b3bd-47f4-ac51-7aa273c46e84";
+				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -622,11 +625,14 @@
 			baseConfigurationReference = 7BFEE73859A81D88914769F3 /* Pods-BotTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BDLKX9FAG9;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = VW85RQ7VZT;
 				INFOPLIST_FILE = BotTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = akeskiner.BotTest;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eckle.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4ed48f8c-b3bd-47f4-ac51-7aa273c46e84";
+				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
